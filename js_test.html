@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>继承</title>
+</head>
+<body>
+    <script>
+        var Ap=function(car,money){
+            this.car=car;
+            this.money=money;
+        }
+        var Person=function(name,age,heigth){
+          this.name=name;
+          this.age=age;
+          this.heigth=heigth;
+
+          this.sayName=function(){
+              console.log("my name is"+this.name);
+          }
+        }
+         Ap.call(this,'mache',10000000000)
+
+        var jackMa=new Ap("GTR","160万");
+        Person.prototype=jackMa;
+
+        var lei=new Person("雷",20,"300");
+        var kin=new Person("王",21,"300");
+
+        
+    </script>
+</body>
+</html>

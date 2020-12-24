@@ -1,0 +1,156 @@
+#a:hover{
+    background-color:#00BB00;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+#a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#b,#c,#d{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.active2{
+    background-color:#00BB00;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+#b:hover{
+    background-color:crimson;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+.active3{
+    background-color:crimson;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+.active4{
+    background-color: darkorange;
+    border: 1px solid black;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+.active5{
+    background-color: #00CACA;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+#c:hover{
+    background-color: darkorange;
+    border: 1px solid black;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+#d:hover{
+    background-color:#00CACA;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+.link1{
+    padding: 8px;
+}
+.nav-header{
+    background-color:skyblue;
+    opacity: 0.7;
+}
+header{
+    position: relative;
+}
+.head{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    width: 100%;
+    height: 50px;
+}
+.lg{
+    color: white;
+    margin-top: 5px;
+}
+.lg>span{
+    padding: 6px;
+    display: inline-block;
+    border-right: 1px solid darkgrey;
+}
+.lg>a:hover{
+    color: red;
+}
+.lg>a{
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    border-right: 1px solid darkgrey;
+}
+
+li{
+    list-style: none;
+}
+.zhe{
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 35px;
+    left: 0;
+    background-color: black;
+   color: white;
+   width: 10%;
+   text-align: center;
+   display: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.zhe li{
+    margin-top: 5px;
+}
+.zhe li:hover{
+    background-color:red;
+    border-radius: 10px 10px 10px 10px;
+    color:cornsilk;
+    text-decoration: none;
+}
+.box{
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    background-color: black;
+    opacity: 0.7;
+    width: 80%;
+    height: 40%;
+}
+.detail{
+    text-indent: 2em;
+}
+#h{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:1600px) and (min-width:1200px){
+    .card img{
+        height: 370px;
+    }
+    
+}
+@media screen and (max-width:1200px) and (min-width:768px){
+    .card img{
+        height: 300px;
+    }
+  
+}
+@media screen and (max-width:768px) and (min-width:320px){
+    .card img{
+        height: 200px;
+    }
+}

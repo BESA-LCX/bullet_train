@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this指向</title>
+</head>
+<body>
+    
+    <script>
+        var lei={
+           name:'lei',
+           sayName:function(){
+               console.log("this is "+this.name);
+           }
+        }
+     /*   var hmm={
+            name:'hmm'
+        }
+        lei.sayName.call(hmm);
+       // lei.sayName.bind(hmm);*/
+
+       var newFun=lei.sayName;
+       newFun();
+
+    </script>
+</body>
+</html>

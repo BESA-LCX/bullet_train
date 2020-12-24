@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本高速列车</title>
+    <link rel="stylesheet" href="css/sc.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="icon" href="img/icon/LOGO2.png">
+    <style>
+        .card{
+          border:2px solid cyan;
+          }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/新干线.jpg" width="100%" height="500">
+        <div class="head">
+            <button class="btn btn-dark" id="z-btn"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+            <div class="zhe">
+                <a href="jr.html" target="_blank" id="h"><li>日本高速列车</li></a>
+                <a href="cr.html" id="h"><li>中国高速列车</li></a>
+                <a href="DB.html" id="h"><li>德国高速列车</li></a>
+                <a href="SNCF.html" id="h"><li>法国高速列车</li></a>
+               </div>
+               <div class="lg">
+                   <a href="index.html"><span><img src="img/icon/icon1.png" width="200" height="50"></span></a>
+                   <a href="#"><span>繁體中文</span></a>
+                   <a href="#"><span>日本語</span></a>
+                   <a href="#"><span>English</span></a>
+                   <a href="#"><span>Deutsch</span></a>
+                   <a href="#"><span><i class="fa fa-language fa-lg" aria-hidden="true"></i></span></a>
+               </div>
+        </div>
+        <div class="box p-2">
+            <h3 class="text-center text-white">JR新干线电力动车组</h3>
+            <div class="detail text-white">
+                新干线是日本的高速铁路系统，也是全世界第一个投入商业运营的高速铁路系统，采用1435毫米标准轨距，全线均为纯客运服务。最初由日本国有铁道研发与运营，国铁分割民营化后由日本铁路公司接手，并分别由该公司名下的JR北海道、JR东日本、JR东海、JR西日本、JR九州等5家成员公司提供服务。新干线是以同时适合快速及大量运输而设计，因而其建造与运营技术均有别于传统铁路，例如全面采用动力分散式列车、轨道全面采用立体交叉、列车自动控制系统等，最短可以3分钟的班距运行。曾创下每小时443公里的最高纪录（由“300X”实验列车在1996年所创下）。身为日本铁路技术居于世界顶尖的重要象征，新干线的技术也向海外输出，如中国大陆高铁部分技术及台湾高铁即采用新干线做为系统基础，而采用新干线系统的英国、意大利、印度、泰国、美国德克萨斯州等地的高速铁路亦在兴建或规划中。
+            </div>
+        </div>
+    </header>
+  <div class="row">
+      <div class="col-3 bg-light border-right mr-0 p-2" style="background-image: url(img/jr/jr_bg2.jpg);background-size: cover;">
+            <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="link1 active2" id="a" data-toggle="pill" href="#ALFA-X" role="tab" aria-selected="true">ALFA-X系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#L0" role="tab"  aria-selected="false">L0型磁悬浮列车</a>
+                <!-- <a class="link1" id="a" data-toggle="pill" href="#N700S" role="tab" aria-selected="false">N700S</a> -->
+                <a class="link1" id="a" data-toggle="pill" href="#N700" role="tab"  aria-selected="false">N700S/N700A/N700</a>
+                <a class="link1" id="a" data-toggle="pill" href="#H5" role="tab" aria-selected="false">H5系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E7" role="tab"  aria-selected="false">E7/W7系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E6" role="tab" aria-selected="false">E6系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E5" role="tab" aria-selected="false">E5系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E-800" role="tab"  aria-selected="false">800系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E-700" role="tab" aria-selected="false">700系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E-500" role="tab" aria-selected="false">500系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E4" role="tab" aria-selected="false">E4系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E3" role="tab" aria-selected="false">E3系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E2" role="tab" aria-selected="false">E2系</a>
+                <a class="link1" id="a" data-toggle="pill" href="#E-400" role="tab" aria-selected="false">400系</a>
+            </div>
+      </div>
+      <div class="col-9 ml-0 bg-light">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade" id="L0" role="tabpanel" >
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/L0型</span></h4>
+                <div class="card">
+                    <img src="img/L0型磁悬浮列车.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日本车辆制造 三菱重工</p>
+                                <p>状态：测试中</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：超导磁悬浮列车</p>
+                                <p>最高时速：603 km/h</p>
+                                <p>计划运营线路：东京至名古屋的中央新干线的运营</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--L0-->
+            <div class="tab-pane fade show active" id="ALFA-X" role="tabpanel" >
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/ALFA-X系</span></h4>
+                <div class="card">
+                    <img src="img/ALFA-X系.jpeg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：川崎重工业</p>
+                                <p>状态：测试中</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>最高运行时速：360km/h</p>
+                                <p>运营时间：2030年前后</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="text-center mt-2">结构图</h4>
+                <a href="img/jr/ALFA-X结构.png" target="_blank"><div class="text-center"><img src="img/jr/ALFA-X结构.png" width="70%" height="300"></div></a>
+            </div><!--ALFA-X-->
+            <!-- <div class="tab-pane fade" id="N700S" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/N700S系</span></h4>
+                <div class="card">
+                    <img src="img/N700S.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日立制作所，日本车辆制造</p>
+                                <p>状态：运营中(2020年7月1日始)</p>
+                                <p>运行线路：东海道新干线，山阳新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>最高运营时速：320km/h</p>
+                                <p>最高测试时速：362km/h</p>
+                                <p>运营商：东海旅客铁道（JR东海）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="tab-pane fade" id="H5" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/H5系</span></h4>
+                <div class="card">
+                    <img src="img/H5.png" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日立制作所笠户事业所、川崎重工业</p>
+                                <p>状态：运营中（2016年3月26日始）</p>
+                                <p>运行线路：北海道新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>最高运营时速：320km/h</p>
+                                <p>最高测试时速：360km/h</p>
+                                <p>运营商：北海道旅客铁道（JR北海道）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--H5-->
+            <div class="tab-pane fade" id="N700" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/N700S系</span></h4>
+                <div class="card">
+                    <img src="img/N700S.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日立制作所，日本车辆制造</p>
+                                <p>状态：运营中(2020年7月1日始)</p>
+                                <p>运行线路：东海道新干线，山阳新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>最高运营时速：320km/h</p>
+                                <p>最高测试时速：362km/h</p>
+                                <p>运营商：东海旅客铁道（JR东海）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/N700A系</span></h4>
+                <div class="card">
+                    <img src="img/jr/N700A.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日立制作所，日本车辆制造</p>
+                                <p>状态：运营中（2013年2月始）</p>
+                                <p>造价：45亿日元一列(16节编成)</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>最高运营时速：300 km/h</p>
+                                <p>最大过弯时速：270km/h</p>
+                                <p>运营商：东海旅客铁道（JR东海）、西日本旅客铁道（JR西日本）与九州旅客铁道（JR九州）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/N700系</span></h4>
+                <div class="card">
+                    <img src="img/jr/N700.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日立制作所，日本车辆制造</p>
+                                <p>状态：运营中（2007年7月1日始）</p>
+                                <p>造价：45亿日元一列(16节编成)</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>最高运营时速：300 km/h</p>
+                                <p>最大过弯时速：270km/h</p>
+                                <p>运营商：东海旅客铁道（JR东海）、西日本旅客铁道（JR西日本）与九州旅客铁道（JR九州）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="text-center mt-2">新干线N700系电力动车组参数</h4>
+                <a href="img/jr/N700参数.png" target="_blank"><div class="text-center"><img src="img/jr/N700参数.png" width="70%" height="300"></div></a>
+            </div><!--N700-->
+            <div class="tab-pane fade" id="E7" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/W7系</span></h4>
+                <div class="card">
+                    <img src="img/jr/W7.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：川崎重工业</p>
+                                <p>状态：运营中(2014年3月15日始)</p>
+                                <p>运行线路：北陆新干线，上越新干线，东北新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式电力动车组</p>
+                                <p>最高运营时速：260 km/h</p>
+                                <p>设计最高时速：275km/h</p>
+                                <p>运营商：东日本旅客铁道（JR东日本）西日本旅客铁道（JR西日本）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/E7系</span></h4>
+                <div class="card">
+                    <img src="img/jr/E7.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：川崎重工业</p>
+                                <p>状态：运营中(2014年3月15日始)</p>
+                                <p>运行线路：北陆新干线，上越新干线，东北新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式电力动车组</p>
+                                <p>最高运营时速：260 km/h</p>
+                                <p>设计最高时速：270km/h</p>
+                                <p>运营商：东日本旅客铁道（JR东日本）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </div><!--W7/E7-->
+            <div class="tab-pane fade" id="E6" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/E6系</span></h4>
+                <div class="card">
+                    <img src="img/E6系.png" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日立制作所笠户事业所、川崎重工业</p>
+                                <p>状态：运营中</p>
+                                <p>运行线路：秋田新干线 东北新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>最高运营时速：320 km/h</p>
+                                <p>设计最高速度：360km/h</p>
+                                <p>运营商：东日本旅客铁道（JR东日本）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="text-center mt-2">新干线E6系电力动车组参数</h4>
+                <a href="img/jr/E6参数.png" target="_blank"><div class="text-center"><img src="img/jr/E6参数.png" width="70%" height="300"></div></a>
+            </div><!--E6-->
+            <div class="tab-pane fade" id="E5" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/E5系</span></h4>
+                <div class="card">
+                    <img src="img/jr/E5.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日立制作所笠户事业所、川崎重工业</p>
+                                <p>状态：运营中</p>
+                                <p>运行线路：东北新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>最高运营时速：320 km/h</p>
+                                <p>设计最高速度：360km/h</p>
+                                <p>运营商：东日本旅客铁道（JR东日本）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--E5-->
+            <div class="tab-pane fade" id="E-800" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/800系</span></h4>
+                <div class="card">
+                    <img src="img/jr/800系.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日立制作所</p>
+                                <p>状态：运营中（2004年3月13日始）</p>
+                                <p>运行线路：九州新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式电力动车组</p>
+                                <p>最高运营时速：260km/h</p>
+                                <p>设计最高时速：285km/h</p>
+                                <p>运营商：九州旅客铁道（JR九州）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--800-->
+            <div class="tab-pane fade" id="E-700" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/700系</span></h4>
+                <div class="card">
+                    <img src="img/jr/700系.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：日本车辆制造 日立制作所 川崎重工业</p>
+                                <p>状态：运营中（1999年始）</p>
+                                <p>运行线路：东海道新干线 山阳新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>最高运营时速：285km/h</p>
+                                <p>设计最高时速：340km/h</p>
+                                <p>运营商：东日本旅客铁道（JR东日本）西日本旅客铁道（JR西日本）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="text-center mt-2">新干线700系电力动车组参数</h4>
+                <a href="img/jr/700系参数.png" target="_blank"><div class="text-center"><img src="img/jr/700系参数.png" width="70%" height="300"></div></a>
+            </div><!--700-->
+            <div class="tab-pane fade" id="E-500" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/500系</span></h4>
+                <div class="card">
+                    <img src="img/jr/500系.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：川崎重工业 日立制作所 近畿车辆</p>
+                                <p>状态：运营中（1997年3月22日始）</p>
+                                <p>成就：通商产业省最佳产品设计奖等</p>
+                                <p>运行线路：山阳新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式高速电力动车组</p>
+                                <p>运营时速：300km/h（W编组）285km/h（V编组）</p>
+                                <p>设计最高时速：350km/h</p>
+                                <p>运营商：西日本旅客铁道（JR西日本）</p>
+                                <p>生产数量：144辆（9列16辆编组）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--500-->
+            <div class="tab-pane fade" id="E4" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/E4系</span></h4>
+                <div class="card">
+                    <img src="img/jr/E4.png" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：川崎重工业、日立制作所</p>
+                                <p>状态：运营中（1997年12月20日始）</p>
+                                <p>运行线路：长野新干线 上越新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式双层电力动车组</p>
+                                <p>持续运营时速：240km/h</p>
+                                <p>评价：世界上最大的高速列车。</p>
+                                <p>运营商：东日本旅客铁道（JR东日本）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--E4-->
+            <div class="tab-pane fade" id="E3" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/E3系</span></h4>
+                <div class="card">
+                    <img src="img/jr/E3系.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：川崎重工业、东急车辆制造</p>
+                                <p>状态：运营中（1997年3月22日始）</p>
+                                <p>运行线路：山形新干线</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式电力动车组</p>
+                                <p>运营时速：130km/h、275km</p>
+                                <p>设计最高时速：315 km/h</p>
+                                <p>运营商：东日本旅客铁道（JR东日本）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--E3-->
+            <div class="tab-pane fade" id="E2" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/E2系</span></h4>
+                <div class="card">
+                    <img src="img/jr/E2系.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：川崎重工业 日立制作所 东急车辆制造 日本车辆制造</p>
+                                <p>状态：运营中（1997年3月22日始）</p>
+                                <p>运行线路：东北新干线 上月新干线 长野新干线</p>
+                                <p>出口：2004年，输出到中国的E2系1000型电力动车组被称为CRH2型，是继台湾高铁的700T型电力动车组后，第二款输出到国外的新干线列车。为数14节车厢的首台电力动车组于2006年3月1日从神户港登船，3月8日运抵中国青岛。</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式电力动车组</p>
+                                <p>最高运营时速：东北新干线区：275km/h 上越新干线区：245km/h 长野新干线区：260km/h</p>
+                                <p>设计最高时速：315 km/h</p>
+                                <p>运营商：东日本旅客铁道（JR东日本）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="text-center mt-2">新干线E2系电力动车组参数</h4>
+                <a href="img/jr/E2系参数.png" target="_blank"><div class="text-center"><img src="img/jr/E2系参数.png" width="70%" height="300"></div></a>
+            </div><!--E2-->
+            <div class="tab-pane fade" id="E-400" role="tabpanel">
+                <h4 class="p-2">新干线电力动车组<span class="text-danger">/400系</span></h4>
+                <div class="card">
+                    <img src="img/jr/400系.webp.jpg" height="400">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pl-3 border-right">
+                                <p>所属：日本新干线</p>
+                                <p>制造商：川崎重工业 东急车辆制造</p>
+                                <p>状态：已退役（1992年7月始）</p>
+                                <p>车厢数量：84（全数退役）</p>
+                            </div>
+                            <div class="col-6 pl-3">
+                                <p>类型：动力分散式电力动车组</p>
+                                <p>最高运营时速：新干线段：240km/h 在来线段：130 km/h</p>
+                                <p>设计最高时速：345 km/h</p>
+                                <p>运营商：东日本旅客铁道（JR东日本）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="text-center mt-2">新干线400系电力动车组参数</h4>
+                <a href="img/jr/400系参数.png" target="_blank"><div class="text-center"><img src="img/jr/400系参数.png" width="70%" height="300"></div></a>
+            </div><!--400-->
+            
+
+          </div><!--tab-content-->
+      </div><!--col-9-->
+  </div><!--row-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script>
+    var a_group=document.querySelectorAll("#a");
+    console.log(a_group);
+    for(var i=0;i<a_group.length;i++){
+        a_group[i].onclick=function(){
+            $(this).addClass("active2");
+            $(this).prevAll().removeClass("active2");
+            $(this).nextAll().removeClass("active2");
+        }
+    }
+    $("#z-btn").click(function(){
+        $(".zhe").toggle("slow");
+    });
+
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+</script>
+</body>
+</html>
